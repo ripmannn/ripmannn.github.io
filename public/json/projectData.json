@@ -1,0 +1,58 @@
+[
+    {
+        "id":"webportfolio",
+        "name":"Web Portfolio",
+        "description":"Web ini dibuat untuk menampilkan portofolio saya. Web ini dibuat menggunakan React JS, sebuah library JavaScript yang kuat dan mudah digunakan, serta TailwindCSS, sebuah framework CSS yang fleksibel dan modern. Web ini dirancang untuk memperkuat pengalaman tentang pengembangan web.",
+        "sinopsis":"Web ini dibuat untuk menampilkan portofolio saya.",
+        "status":"Done",
+        "image": "images/webporto.png",
+        "platform": ["web"],
+        "address": "https://ariefrp.github.io/",
+        "technologies": ["React JS", "Tailwind CSS", "Daisy UI", "GH Pages"]
+    },
+    {
+        "id":"blogsederhana",
+        "name":"Simple Blog",
+        "description":"Blog ini dibuat menggunakan Laravel, sebuah framework PHP yang kuat dan mudah digunakan, serta TailwindCSS, sebuah framework CSS yang fleksibel dan modern, serta filament. Blog ini dirancang untuk memperkuat pengalaman tentang pengembangan web.",
+        "sinopsis":"Blog ini dirancang untuk latihan pengalaman.",
+        "status":"Done",
+        "image": "images/blogsederhana.png",
+        "platform": ["web"],
+        "address": "https://github.com/ripmannn/blog-sederhana",
+        "technologies": ["Laravel 11", "Tailwind CSS", "Filament", "MySQL"]
+    },
+    {
+        "id":"cafespontan",
+        "name":"Cafe Spontan",
+        "description":"Aplikasi Web pemesanan makanan dan minuman. dibuat dengan codeigniter 3, boostrap, mysql, dan payment gateway menggunakan midtrans untuk pembayaran. Web ini dirancang secara berkelompok untuk menyelesaikan tugas akhir mata kuliah pemrograman web III dan mendapat nilai A.",
+        "sinopsis":"Aplikasi Web pemesanan makanan dan minuman.",
+        "status":"Done",
+        "image": "images/cafespontan.png",
+        "platform": ["web"],
+        "address": "https://codeafive.com/",
+        "technologies": ["Codeigniter 3", "Bootsrap", "Payment Gateway", "MySQL"]
+    },
+    {
+        "id":"indyinterior",
+        "name":"Web Portfolio Indy Interior",
+        "description":"Website Indy Interior merupakan sebuah platform untuk menampilkan portofolio dan hasil kerja terbaik dari perusahaan desain interior. Dibangun menggunakan teknologi React JS dan Tailwind CSS, website ini dirancang dengan antarmuka yang responsif, modern, dan mudah dinavigasi.",
+        "sinopsis":"Website Indy Interior merupakan sebuah platform untuk menampilkan portofolio.",
+        "status":"Done",
+        "image": "images/indyinterior.png",
+        "platform": ["web"],
+        "address": "https://interiorbyindy.com/",
+        "technologies": ["React JS", "Tailwind CSS"]
+    },
+    {
+        "id":"empsi",
+        "name":"EMPSI(Employee Salary Information)",
+        "description":"Aplikasi Web untuk mengelolah penggajian sebuah bisnis. dibuat dengan codeigniter 3, boostrap, mysql. Web ini dirancang secara berkelompok untuk menyelesaikan tugas akhir mata kuliah pemrograman web II dan mendapat nilai A.",
+        "sinopsis":"Aplikasi Web untuk mengelolah penggajian sebuah bisnis.",
+        "status":"Done",
+        "image": "images/empsi.png",
+        "platform": ["web"],
+        "address": "https://github.com/ripmannn/Empsi-wp2project",
+        "technologies": ["Codeigniter 3", "Bootsrap", "MySQL"]
+    }
+    
+]
