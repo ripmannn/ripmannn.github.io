@@ -21,7 +21,7 @@ const ProfilePage = () => {
         <div className="flex-none">
           <div className="avatar">
             <div className="w-full md:w-48 rounded-lg mx-auto">
-              <img src="arief.jpg" alt="" />
+              <img src="aku.jpg" alt="" />
             </div>
           </div>
         </div>
