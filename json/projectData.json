@@ -1,5 +1,16 @@
 [
     {
+        "id":"poslaravel",
+        "name":"Sistem POS Sederhana",
+        "description":"Aplikasi Web POS sederhana, bisa mencetak struk, rekap transaksi tiap bulan, menambah menu dan customer.",
+        "sinopsis":"POS sederhana.",
+        "status":"Done",
+        "image": "images/noimage.png",
+        "platform": ["web"],
+        "address": "",
+        "technologies": ["Laravel 11", "Tailwind CSS", "Daisy UI", "MySQL"]
+    },
+    {
         "id":"webportfolio",
         "name":"Web Portfolio",
         "description":"Web ini dibuat untuk menampilkan portofolio saya. Web ini dibuat menggunakan React JS, sebuah library JavaScript yang kuat dan mudah digunakan, serta TailwindCSS, sebuah framework CSS yang fleksibel dan modern. Web ini dirancang untuk memperkuat pengalaman tentang pengembangan web.",
@@ -30,7 +41,7 @@
         "image": "images/cafespontan.png",
         "platform": ["web"],
         "address": "https://codeafive.com/",
-        "technologies": ["Codeigniter 3", "Bootsrap", "Payment Gateway", "MySQL"]
+        "technologies": ["Codeigniter 3", "Bootsrap", "Payment Gateway", "MySQL","Resful API"]
     },
     {
         "id":"indyinterior",
