@@ -9,7 +9,7 @@ const ContactPage = () => {
     e.preventDefault();
 
     const message = `Halo, nama saya ${name}. Saya ingin bertanya: ${pertanyaan}`;
-    const phoneNumber = "085694265691";
+    const phoneNumber = "+6285694265691";
     const waLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(waLink, "_blank");
 
