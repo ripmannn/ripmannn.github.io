@@ -1,14 +1,25 @@
 [
     {
-        "id":"poslaravel",
-        "name":"Sistem POS Sederhana",
-        "description":"Aplikasi Web POS sederhana, bisa mencetak struk, rekap transaksi tiap bulan, menambah menu dan customer.",
-        "sinopsis":"POS sederhana.",
-        "status":"Done",
-        "image": "images/noimage.png",
+        "id":"echotrip",
+        "name":"EchoTrip",
+        "description":"Aplikasi ini adalah sistem pemesanan tiket travel yang memungkinkan pengguna untuk memesan tiket secara online. Aplikasi ini dirancang untuk memberikan kemudahan dalam proses pemesanan tiket travel.",
+        "sinopsis":"Sistem Pemesanan Tiket Travel.",
+        "status":"Progress",
+        "image": "images/echotrip.png",
         "platform": ["web"],
         "address": "",
-        "technologies": ["Laravel 11", "Tailwind CSS", "Daisy UI", "MySQL"]
+        "technologies": ["Laravel 12", "Bootsrap", "MySQL"]
+    },
+    {
+        "id":"spksaw",
+        "name":"Sistem Pendukung Keputusan Metode SAW",
+        "description":"Aplikasi ini adalah sistem pendukung keputusan yang menggunakan metode SAW (Simple Additive Weighting) untuk membantu dalam pengambilan keputusan. Aplikasi ini dirancang untuk memberikan solusi yang efisien dan efektif dalam memilih alternatif terbaik berdasarkan kriteria yang telah ditentukan.",
+        "sinopsis":"Sistem pendukung keputusan yang menggunakan metode SAW.",
+        "status":"Done",
+        "image": "images/spksaw.png",
+        "platform": ["web"],
+        "address": "https://github.com/ripmannn/spk_saw",
+        "technologies": ["Laravel 12", "Bootsrap", "MySQL"]
     },
     {
         "id":"webportfolio",
@@ -18,7 +29,7 @@
         "status":"Done",
         "image": "images/webporto.png",
         "platform": ["web"],
-        "address": "https://ariefrp.github.io/",
+        "address": "https://ripmannn.github.io/",
         "technologies": ["React JS", "Tailwind CSS", "Daisy UI", "GH Pages"]
     },
     {
