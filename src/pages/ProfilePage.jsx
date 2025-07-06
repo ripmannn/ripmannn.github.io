@@ -12,7 +12,7 @@ const ProfilePage = () => {
           <h1 className="text-5xl font-bold">Hallo</h1>
           <p className="text-justify">
             Mahasiswa Sistem Informasi yang passionate di bidang web development, menguasai HTML, CSS, JavaScript, dan framework seperti React.js atau Laravel. Memiliki pengalaman membangun website portofolio dan aplikasi pemesanan makanan
-            dan minuman serta POS selama kuliah. Cepat belajar, memiliki kemampuan problem-solving, dan siap berkontribusi sebagai web developer profesional.
+            dan minuman selama kuliah. Cepat belajar, memiliki kemampuan problem-solving, dan siap berkontribusi sebagai web developer profesional.
           </p>
           <a href="CV-Arief-Rahman-Pratama.pdf" download className="btn btn-primary-content btn-outline mt-2 shadow-lg ">
             Download CV
@@ -21,7 +21,7 @@ const ProfilePage = () => {
         <div className="flex-none">
           <div className="avatar">
             <div className="w-full md:w-48 rounded-lg mx-auto">
-              <img src="aku.jpg" alt="" />
+              <img src="aku.jpg" alt="arief" />
             </div>
           </div>
         </div>

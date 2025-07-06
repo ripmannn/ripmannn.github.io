@@ -20,6 +20,19 @@ const ProjectCard = ({ data }) => {
               {item}
             </div>
           ))}
+          {data.status && (
+            <div 
+              className={`badge badge-sm ${
+                data.status.toLowerCase() === "progress" 
+                  ? "badge-warning" 
+                  : data.status.toLowerCase() === "done" 
+                  ? "badge-success" 
+                  : "badge-info"
+              }`}
+            >
+              {data.status}
+            </div>
+          )}
         </div>
         <p className="text-sm">{data.sinopsis}</p>
       </div>
