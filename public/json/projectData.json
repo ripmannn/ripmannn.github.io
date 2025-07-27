@@ -1,14 +1,25 @@
 [
     {
+        "id":"electric",
+        "name":"Electric Payment",
+        "description":"Aplikasi ini adalah sistem pembayaran listrik yang memungkinkan pengguna untuk melakukan pembayaran tagihan listrik secara online dengan mudah dan aman. Aplikasi ini dirancang untuk memudahkan proses pembayaran listrik kapan saja dan di mana saja.",
+        "sinopsis":"Sistem pembayaran tagihan listrik sederhana.",
+        "status":"Done",
+        "image": "images/electric.png",
+        "platform": ["web"],
+        "address": "https://github.com/ripmannn/electic",
+        "technologies": ["Laravel 12", "Tailwind CSS", "Daisy UI", "MySQL"]
+    },
+    {
         "id":"echotrip",
         "name":"EchoTrip",
         "description":"Aplikasi ini adalah sistem pemesanan tiket travel yang memungkinkan pengguna untuk memesan tiket secara online. Aplikasi ini dirancang untuk memberikan kemudahan dalam proses pemesanan tiket travel.",
-        "sinopsis":"Sistem Pemesanan Tiket Travel.",
-        "status":"Progress",
+        "sinopsis":"Sistem Pemesanan Tiket Travel Sederhana.",
+        "status":"Done",
         "image": "images/echotrip.png",
         "platform": ["web"],
-        "address": "",
-        "technologies": ["Laravel 12", "Bootsrap", "MySQL"]
+        "address": "https://github.com/ripmannn/echo-trip",
+        "technologies": ["Laravel 12", "Tailwind CSS", "MySQL"]
     },
     {
         "id":"spksaw",
