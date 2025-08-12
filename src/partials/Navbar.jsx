@@ -9,6 +9,10 @@ const Navbar = () => {
     setIsDropdownOpen(!isDropdownOpen);
   };
 
+  const closeDropdown = () => {
+    setIsDropdownOpen(false);
+  };
+
   return (
     <div className="navbar fixed top-0 left-0 w-full border-b-2 border-base-300 bg-base-200 shadow-md z-50">
       <div className="flex-1">
@@ -29,19 +33,19 @@ const Navbar = () => {
           {isDropdownOpen && (
             <ul tabIndex={0} className="dropdown-content space-y-2 menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow-lg border-2 border-base-300">
               <li>
-                <NavLink to={"/"}>
+                <NavLink to={"/"} onClick={closeDropdown}>
                   <CircleUserRound size={16} />
                   <span>Profile</span>
                 </NavLink>
               </li>
               <li>
-                <NavLink to={"/project"}>
+                <NavLink to={"/project"} onClick={closeDropdown}>
                   <FolderGit2 size={16} />
                   <span>Projects</span>
                 </NavLink>
               </li>
               <li>
-                <NavLink to={"/contact"}>
+                <NavLink to={"/contact"} onClick={closeDropdown}>
                   <Phone size={16} />
                   <span>Contact</span>
                 </NavLink>
