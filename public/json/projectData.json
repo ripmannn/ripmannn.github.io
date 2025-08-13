@@ -7,7 +7,7 @@
         "status":"Done",
         "image": "images/electric.png",
         "platform": ["web"],
-        "address": "https://github.com/ripmannn/electic",
+        "address": "https://electric.codeafive.com",
         "technologies": ["Laravel 12", "Tailwind CSS", "Daisy UI", "MySQL"]
     },
     {
@@ -29,7 +29,7 @@
         "status":"Done",
         "image": "images/spksaw.png",
         "platform": ["web"],
-        "address": "https://github.com/ripmannn/spk_saw",
+        "address": "https://spksaw.codeafive.com/",
         "technologies": ["Laravel 12", "Bootsrap", "MySQL"]
     },
     {
